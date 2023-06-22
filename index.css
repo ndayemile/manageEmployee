@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section{
+    min-height: 85vh;
+    width: 77%;
+    background: url('background.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 300px;
+    padding-top: 20px;
+}
+.form-box{
+    position: relative;
+    width: 600px;
+    height: 480px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+}
+.h2{
+    margin-top: 40px;
+    font-size: 2em;
+    color: rgb(255, 213, 88);
+    text-align: center;
+    align-items: center;
+}
+.inputbox{
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 360px;
+    border-bottom: 2px solid white;
+    margin-left: 100px;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -5px;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color:lightcoral;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.forget label input{
+    margin-right: 3px;
+}
+.forget label a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.forget label a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+button{
+    margin-left: 150px;
+    width: 300px;
+    height: 40px;
+    border-radius: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: white;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.new{
+    font-size: .9em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.labels{
+    color: antiquewhite;
+    margin-left: 30px;
+}
+.goleft{
+    margin-left: 1000px;
+    margin-bottom: 5px;
+}
+.alink{
+    text-decoration: none;
+    background-color: bisque;
+    padding: 5px;
+    color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.alink:hover{
+    background-color: cadetblue;
+    font-size: 1.5em;
+}
+.newimg{
+    height: 70px;
+    width: 40%;
+    margin-left: 5px;
+}
+.footer{
+    margin-top: -80px;
+    margin-left: 500px;
+}
+.inputboxtext{
+    color: brown;
+}
+.description{
+    margin-left: 4px;
+}
+.sfirstdiv{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.button{
+    margin-left: 25px;
+    width: 30%;
+    height: 40px;
+    border-radius: 40px;
+    background: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.udiv{
+    margin-left: 10px;
+    border: 2px brown solid;
+    border-radius: 15px;
+    width: 400px;
+    padding: 10px;
+}
+.newdiv{
+    margin-left: 100px;
+}
+.ddiv{
+    margin-left: 10px;
+    width: 400px;
+    padding: 10px;
+}
+.newddiv{
+    margin-left: 100px;
+    background-color: brown;
+}
+.maindiv{
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.submaindiv{
+    margin-left: 100px;
+    width: 75%;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    color: white;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-left: 150px;
+}
+.break{
+    margin-left: 30px;
+}
+.disp{
+    display: flex;
+}
+.home{
+    text-decoration: none;
+    border-style: groove;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 3px;
+}
+.hdiv{
+    min-height: 90vh;
+    width: 100%;
+    background-image: url('iprcngoma.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.footernew{
+    margin-left: 80px;
+    margin-right: 70px;
+    height: 1250px;
+    background-image: url('Skills.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 95px;
+    margin-top: -30px;
+}
+.container{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.h3{
+    margin-top: 0px;
+    font-size: 2em;
+    color: rgb(255, 213, 88);
+    text-align: center;
+    align-items: center;
+    margin-left: -150px;
+    margin-bottom: 10px;
+}
+.tablee{
+    padding: 1rem;
+}
+.table{
+    background-color: #ff95;
+    border-radius: 20px;
+    backdrop-filter: blur(7px);
+}
+.ttd{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+.accept{
+    font-size: 20px;
+    color: bisque;
+    width: 100px;
+    padding: 2px;
+    margin: 2px;
+}
+.accept:hover{
+    background-color: green;
+}
+.reject{
+    font-size: 20px;
+    width: 100px;
+    padding: 2px;
+    margin: 2px;
+}
+.reject:hover{
+    background-color: brown;
+}
+.subsub{
+    font-weight: normal;
+    font-size: 2rem;
+    margin-left: -20px;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
